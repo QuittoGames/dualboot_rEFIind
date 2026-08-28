@@ -1,0 +1,15 @@
+# Private keys / secrets — never commit
+*.key
+*.pem
+privkey.pem
+*private*
+*secret*
+
+# Local signed artifacts that should not be tracked (optional)
+# refind/refind_x64-quitto-signed.efi
+
+# OS junk
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
